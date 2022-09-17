@@ -3,14 +3,10 @@
 
         public static void main(String[] args){
 
-            Solution27 sol = new Solution27();
-            
-            int[] arr = {};
-           
-            int new_arr = sol.removeElement(arr, 2);
-            
-            System.out.println(new_arr);
-            
+            Solution29 sol =  new Solution29();
+
+            System.out.println(sol.divide(-2147483647
+                    ,-1));
             
         }
     }
