@@ -3,15 +3,11 @@
 
         public static void main(String[] args){
 
-            Solution27 sol = new Solution27();
-            
-            int[] arr = {};
-           
-            int new_arr = sol.removeElement(arr, 2);
-            
-            System.out.println(new_arr);
-            
-            
+            Solution sol = new Solution();
+
+            int nums1[] =  {-1,-1,0,1,1,0};
+            int nums2[] = {1,1,1,0,0,0};
+            System.out.print(sol.findDifference(nums1,nums2));
         }
     }
 
