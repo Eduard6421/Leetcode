@@ -3,11 +3,11 @@
 
         public static void main(String[] args){
 
-            Solution29 sol =  new Solution29();
+            Solution sol = new Solution();
 
-            System.out.println(sol.divide(-2147483647
-                    ,-1));
-            
+            int nums1[] =  {-1,-1,0,1,1,0};
+            int nums2[] = {1,1,1,0,0,0};
+            System.out.print(sol.findDifference(nums1,nums2));
         }
     }
 
